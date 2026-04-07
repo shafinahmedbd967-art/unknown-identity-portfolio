@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unknown Identity System</title>
+
+<style>
+:root {
+  /* 🌌 NEON THEME */
+  --color-neon-primary: #00f5ff;
+  --color-neon-secondary: #7b61ff;
+  --color-neon-accent: #00ff9c;
+
+  --bg-main: #0a0a0f;
+  --bg-card: #12121a;
+  --bg-glass: rgba(10,10,15,0.85);
+
+  --text-main: #e6faff;
+  --text-muted: #8a8f98;
+
+  --border-glow: rgba(0,255,255,0.25);
+
+  --font-main: Arial, system-ui;
+  --font-display: Georgia, serif;
+}
+
+/* GLOBAL */
+body {
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-main);
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-glow);
+}
+
+.logo {
+  font-family: var(--font-display);
+  color: var(--color-neon-primary);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-family: var(--font-display);
+  background: linear-gradient(90deg, #00f5ff, #7b61ff, #00ff9c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  color: var(--text-muted);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* SECTION */
+.section {
+  padding: 80px 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title {
+  color: var(--color-neon-accent);
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg-card);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid var(--border-glow);
+  box-shadow: 0 0 15px rgba(0,255,255,0.05);
+}
+
+.card h3 {
+  color: var(--color-neon-primary);
+}
+
+.card p {
+  color: var(--text-muted);
+}
+
+/* POETRY STYLE */
+.poem {
+  font-style: italic;
+  line-height: 1.8;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid var(--color-neon-primary);
+  color: var(--color-neon-primary);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--color-neon-primary);
+  color: black;
+  box-shadow: 0 0 15px var(--color-neon-primary);
+}
+
+/* GLOW LINE */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #00f5ff, transparent);
+  margin: 60px 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <div class="logo">UNKNOWN</div>
+  <div>Explore</div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Someone Behind the Screen</h1>
+  <p>Not defined. Not simple. Still loading...</p>
+  <button class="btn">Decode</button>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECTION 1 -->
+<section class="section">
+  <div class="title">01 / IDENTITY</div>
+  <div class="heading">Who is this?</div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Mind</h3>
+      <p class="poem">
+        A builder of logic,<br>
+        crafting worlds from nothing,<br>
+        where ideas breathe in code.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Heart</h3>
+      <p class="poem">
+        Feels deeply,<br>
+        but speaks less,<br>
+        hides storms behind silence.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Path</h3>
+      <p class="poem">
+        Not lost,<br>
+        just exploring,<br>
+        somewhere between ambition and chaos.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECTION 2 -->
+<section class="section">
+  <div class="title">02 / ENERGY</div>
+  <div class="heading">What drives him?</div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Curiosity</h3>
+      <p class="poem">
+        Questions everything,<br>
+        even the answers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Focus</h3>
+      <p class="poem">
+        When locked in,<br>
+        the world disappears,<br>
+        only purpose remains.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Silence</h3>
+      <p class="poem">
+        Not empty,<br>
+        but full of thoughts<br>
+        waiting to become something.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECTION 3 -->
+<section class="section">
+  <div class="title">03 / UNKNOWN FACTOR</div>
+  <div class="heading">Unpredictable</div>
+
+  <div class="card">
+    <p class="poem">
+      Sometimes disciplined,<br>
+      sometimes distracted.<br><br>
+
+      Builds dreams at night,<br>
+      questions them in the morning.<br><br>
+
+      Not perfect.<br>
+      Not finished.<br><br>
+
+      Still becoming.
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
