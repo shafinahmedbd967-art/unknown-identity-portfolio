@@ -11,9 +11,7 @@ A mysterious, neon-themed personal portfolio landing page with poetic storytelli
 
 ## 📸 Preview
 ![first_imression](images/first_imression.png)
-![Login UI](images/login-ui.png)
-![Login UI](images/login-ui.png)
-![Login UI](images/login-ui.png)
+
 
 ## 🚀 Tech Stack
 - HTML5
