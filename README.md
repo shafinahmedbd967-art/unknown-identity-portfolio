@@ -9,10 +9,6 @@ A mysterious, neon-themed personal portfolio landing page with poetic storytelli
 - Responsive layout
 - Minimal but aesthetic storytelling approach
 
-## 📸 Preview
-![first_imression](images/first_imression.png)
-
-
 ## 🚀 Tech Stack
 - HTML5
 - CSS3 (Custom variables, gradients, glassmorphism)
