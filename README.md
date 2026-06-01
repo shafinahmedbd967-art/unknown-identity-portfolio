@@ -9,7 +9,7 @@ A cyberpunk-inspired personal portfolio landing page that combines storytelling,
 ![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange)
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
-![Status](https://img.shields.io/badge/Status-Completed-purple)
+![Status](https://img.shields.io/badge/Status-Semi-Completed-purple)
 
 </div>
 
